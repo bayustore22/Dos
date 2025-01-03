@@ -34,43 +34,43 @@ While Android devices can simulate **DoS attacks**, performing a true DDoS attac
 
 ---
 
-# Installation Guide
+## Installation Guide
 
 Follow the steps below to install and run the framework on Termux or Linux.
 
 ### 1. Update Your System
-bash
+```bash
 # For Termux
 pkg update && pkg upgrade -y
 
 # For Linux (Debian/Ubuntu)
 sudo apt update && sudo apt upgrade -y
-
+```
 
 ### 2. Install Git and Python
-bash
+```bash
 # For Termux
 pkg install git python -y
 
 # For Linux
 sudo apt install git python3 python3-pip -y
-
+```
 
 ### 3. Clone the Repository
-bash
-https://github.com/bayustore22/Dos.git
+```bash
+git clone https://github.com/wanzxploit/DoS
 cd DoS
-
+```
 
 ### 4. Install Dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 5. Run the Tool
-bash
+```bash
 python main.py
-
+```
 
 
 # Warning
